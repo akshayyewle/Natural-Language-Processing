@@ -1,4 +1,4 @@
-# pip install streamlit langchain openai wikipedia chromadb 
+# Youtube Title & Script Assistant With Chat History
 
 import os
 import streamlit as st
@@ -7,7 +7,6 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 from langchain.memory import ConversationBufferMemory
-from langchain.utils import WikipediaAPIWrapper
 
 # Title
 st.title("YouTube Title & Script Assistant 📺")
